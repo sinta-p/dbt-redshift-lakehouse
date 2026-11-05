@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: s3tables
+    schema: s3tables_schema
+    tables:
+      - name: daily_sales
