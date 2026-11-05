@@ -1,4 +1,6 @@
 {{ config(
+    access='public',
+
     materialized='s3tables_iceberg',
     schema='s3tables_schema'
 ) }}
